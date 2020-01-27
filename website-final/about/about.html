@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Romeo & Juliet</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  </head>
+ 
+  <body>
+   
+    <header>
+
+      <div class="burger">
+
+           <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+              <svg width="30" height="30">
+
+                <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+
+              </svg>
+            </a>
+          </span>
+
+        </div>
+
+        <div id="side-menu" class="side-nav">
+
+                <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                <a href="../home/index.html">Home</a>
+                <a href="../about/about.html">About</a>
+                <a href="../tickets/tickets.html">Tickets</a>
+                <a href="../help-the-bronx/help-the-bronx.html">Help The Bronx</a>
+                <a href="../cast-&-creative/cast-&-creative.html">Cast & Creative</a>
+            
+        </div>
+
+        <script>
+
+          function openSlideMenu(){
+            document.getElementById('side-menu').style.width= '250px';
+            document.getElementById('main').style.marginLeft= '250px';
+          }
+
+          function closeSlideMenu(){
+            document.getElementById('side-menu').style.width= '0';
+            document.getElementById('main').style.marginLeft= '0';
+          }
+
+        </script>
+
+
+      <div class="wrapper">
+
+            <a href="https://www.ticketmaster.com/" id="tickets">Buy Tickets</a>
+
+            <a href="../home/index.html"><img src="images/logo.png" class="logo" alt="logo"></a>
+
+        <div class="social-media">
+
+          <a href="https://www.facebook.com/"><img src="images/facebook.png" class="facebook" alt="facebook"></a>
+
+          <a href="https://www.instagram.com/"><img src="images/instagram.png" class="instagram" alt="instagram"></a>
+
+          <a href="https://twitter.com/"><img src="images/twitter.png" class="twitter" alt="twitter"></a>
+          
+        </div>
+
+      </div> 
+
+
+      <nav class="navbar">
+
+            <ul>
+                <li><a href="../about/about.html">About</a></li>
+                <li><a href="../tickets/tickets.html">Tickets</a></li>
+                <li><a href="../help-the-bronx/help-the-bronx.html">Help The Bronx</a></li>
+                <li><a href="../cast-&-creative/cast-&-creative.html">Cast & Creative</a></li>
+            </ul>
+       
+      </nav>
+
+    </header>
+
+
+    <section id="showcase">
+        <div class="about">
+
+          <h1>About the show</h1>
+
+          <p>Romeo & Juliet is the West-End’s new hip-hop dance performance based on the classic love tragedy by William Shakespeare.  Set in the South Bronx in the year of 1988, the show gives a pure and honest reflection of the culture. The music genre of hip-hop was on the up but unfortunately so was crime and poverty in the area. Romeo is a member of the Black Spades gang whereas Juliet is the cousin of Tybalt, a well-respected member of the Savage Nomads gang. They are both poor and homeless, but have a passion for hip-hop music. The edgy performance in London’s Picadilly Theatre features music from some of the most iconic names in old school hip-hop including Run DMC, Public Enemy, Eric B & Rankin, De La Soul, EPMD and A Tribe Called Quest.</p>
+
+          <p>Half the profits made from ticket sales will be donated to Coalition for the Homeless, a charity aiming to end homelessness in New York City. Romeo & Juliet will be only be on for 2 nights in January, so make sure to get your tickets NOW!</p>
+            
+        </div>
+
+    </section>
+
+    <div class="row">
+      <div class="column">
+
+        <img src="images/vinyl.png" alt="vinyl" style="width:100%">
+      </div>
+
+      <div class="column">
+        <img src="images/tape.png" alt="tape" style="width:100%">
+      </div>
+
+      <div class="column">
+        <img src="images/trainer.png" alt="trainer" style="width:100%">
+      </div>
+
+      <div class="column">
+        <img src="images/speaker.png" alt="speaker" style="width:100%">
+      </div>
+
+      <div class="column">
+        <img src="images/drumsticks.png" alt="drumsticks" style="width:100%">
+      </div>
+
+    </div>
+
+  <footer id="main-footer">
+
+        <div id="social-media">
+
+          <a href="https://www.facebook.com/"><img src="images/facebook.png" class="facebook-1" alt="facebook"></a>
+
+          <a href="https://www.instagram.com/"><img src="images/instagram.png" class="instagram-1" alt="instagram"></a>
+
+          <a href="https://twitter.com/"><img src="images/twitter.png" class="twitter-1" alt="twitter"></a>
+
+        </div>
+
+      <p>Copyright &copy; 2020 Romeo & Juliet Hip Hop</p> 
+
+  </footer>
+
+  </body>
+
+</html>

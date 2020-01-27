@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Romeo & Juliet</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+ 
+  <body>
+
+    <header>
+
+      <div class="burger">
+
+           <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+              <svg width="30" height="30">
+
+                <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+
+              </svg>
+            </a>
+          </span>
+
+        </div>
+
+        <div id="side-menu" class="side-nav">
+
+                <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="../about/about.html">About</a>
+                <a href="../tickets/tickets.html">Tickets</a>
+                <a href="../help-the-bronx/help-the-bronx.html">Help The Bronx</a>
+                <a href="../cast-&-creative/cast-&-creative.html">Cast & Creative</a>
+            
+        </div>
+
+        <script>
+
+          function openSlideMenu(){
+            document.getElementById('side-menu').style.width= '250px';
+            document.getElementById('main').style.marginLeft= '250px';
+          }
+
+          function closeSlideMenu(){
+            document.getElementById('side-menu').style.width= '0';
+            document.getElementById('main').style.marginLeft= '0';
+          }
+
+        </script>
+
+
+
+
+
+      <div class="wrapper">
+
+            <a href="https://www.ticketmaster.com/" id="tickets">Buy Tickets</a>
+ 
+            <img src="images/logo.png" class="logo" alt="logo">
+
+        <div class="social-media">
+
+          <a href="https://www.facebook.com/"><img src="images/facebook.png" class="facebook" alt="facebook"></a>
+
+          <a href="https://www.instagram.com/"><img src="images/instagram.png" class="instagram" alt="instagram"></a>
+
+          <a href="https://twitter.com/"><img src="images/twitter.png" class="twitter" alt="twitter"></a>
+
+
+        </div>
+
+      </div> 
+
+      <nav class="navbar"> 
+
+            <ul>
+                <li><a href="../about/about.html">About</a></li>
+                <li><a href="../tickets/tickets.html">Tickets</a></li>
+                <li><a href="../help-the-bronx/help-the-bronx.html">Help The Bronx</a></li>
+                <li><a href="../cast-&-creative/cast-&-creative.html">Cast & Creative</a></li>
+            </ul>
+       
+      </nav>
+
+    </header>
+
+    <section id="showcase">
+
+      <a href="https://www.ticketmaster.com/">Book Now</a>
+                  
+    </section>
+
+  <footer id="main-footer">
+
+        <div id="social-media">
+
+          <a href="https://www.facebook.com/"><img src="images/facebook.png" class="facebook-1" alt="facebook"></a>
+
+          <a href="https://www.instagram.com/"><img src="images/instagram.png" class="instagram-1" alt="instagram"></a>
+
+          <a href="https://twitter.com/"><img src="images/twitter.png" class="twitter-1" alt="twitter"></a>
+
+        </div>
+
+      <p>Copyright &copy; 2020 Romeo & Juliet Hip Hop</p> 
+
+  </footer>
+
+  </body>
+
+</html>

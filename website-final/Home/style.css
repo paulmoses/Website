@@ -1,0 +1,249 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: helvetica;
+	font-size: 16px;
+	margin: 0px;
+}
+
+header {
+	padding-top: 20px; 
+	height: 80px;
+}
+
+header .wrapper {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+header .logo {
+  width: 400px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: 37px;
+  margin-bottom: auto;
+}
+
+header #tickets {
+  text-align: center;
+  margin: auto;
+  padding: 2%;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: 3px solid white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+header .facebook {
+  margin-bottom: 5px;
+  margin-left: 170px;
+  margin-right: 10px;
+  padding: 0px;
+  height: 30px;
+}
+
+header .instagram {
+  margin-top: 20px;
+  margin-right: 6px;
+  padding: 0px;
+  margin-left: 10px;
+  width: 40px;
+}
+
+header .twitter {
+  padding: 0px;
+  margin-left: 10px;
+  width: 40px;
+}
+
+header .navbar {
+  background-color: #FEC90A;
+  color: black;
+  height: 30px;
+  width: 100%;
+}
+
+header .navbar ul{
+  padding-top: 4px;
+  text-align: center;
+  list-style: none;
+}
+
+header .navbar li{
+  display: inline;
+  margin-right: 40px;
+}
+
+header .navbar a{
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+#showcase {
+	background-image: url(images/tapes.jpg);
+	height: 700px;
+	background-size: cover;
+	background-position: center;
+	margin-top: 45px;
+}
+
+#showcase a {
+	position: absolute;
+	text-align: center;
+	top: 60%;
+	left: 42%;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	background-color: black;
+	color: #FEC90A;
+	font-weight: bold;
+	font-size: 30px;
+	border: 6px solid #FEC90A;
+	border-radius: 15px; 
+}
+
+#showcase h1{
+	color: white;
+	font-size: 50px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	font-size: 12px;
+}
+
+footer .facebook-1 {
+	padding: 15px;
+	height: 30px;
+	display: none;
+}
+
+footer .instagram-1 {
+	padding: 10px;
+	width: 40px;
+	display: none;
+}
+
+footer .twitter-1 {
+	padding: 10px;
+	width: 40px;
+	display: none;
+}
+
+.burger {
+	height: 40px;
+	margin-left: 20px;
+	margin-top: 15px;
+	display: none;
+}
+
+.side-nav{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index:1;
+	top: 0;
+	left: 0;
+	background-color: black;
+	overflow-x:hidden;
+	padding-top: 60px; 
+	overflow: auto;
+	line-height: 60px;
+}
+
+.side-nav a {
+	padding: 10px 10 10 30px;
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+	padding-left: 15px;
+}
+
+.side-nav a:hover{
+	color: #FEC90A;
+}
+
+.side-nav btn-close {
+	position: absolute;
+	top: 0;
+	right: 22px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+
+
+@media only screen and (max-width: 720px) {
+
+	header #tickets {
+  		display: none;
+	}
+
+	header {
+		padding-top: 5px;
+		height: 15px;
+	}
+
+	header .logo {
+		margin-left: 50%;
+		width: 280px;
+		margin-top: -45px;
+	}
+
+	.navbar {
+		display: none;
+	}
+
+	.burger {
+		display: block;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+	.facebook {
+		display: none;
+	}
+	.instagram {
+		display: none;
+	}
+	.twitter {
+		display: none;
+	}
+
+	#showcase a {
+		margin-left: -80px;
+		margin-top: -30px;
+	}
+
+	footer .facebook-1 {
+		display: inline-block;
+	}
+
+	footer .instagram-1 {
+		display: inline-block;
+	}
+
+	footer .twitter-1 {
+		display: inline-block;
+	}
+
+}
+
+
+
+
+
